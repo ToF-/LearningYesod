@@ -25,6 +25,7 @@ dependencies:
 - shakespeare
 - blaze-markup
 - blaze-html
+- text
 
 library:
   source-dirs: src
