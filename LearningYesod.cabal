@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 10716271a15f4d5698397cfab56d4b38acc5c7b96d7d2f3aaffced9afebe5a20
+-- hash: 6945ff500ccc7d9bc3e3a06d3b1aa3c6d82f2b9fcad7739ac00f99ad756ffc0d
 
 name:           LearningYesod
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 
 library
   exposed-modules:
+      HamletExample
       HelloWorld
       Lib
       Links
@@ -36,6 +37,9 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , blaze-html
+    , blaze-markup
+    , shakespeare
     , yesod
   default-language: Haskell2010
 
@@ -49,6 +53,9 @@ executable LearningYesod-exe
   build-depends:
       LearningYesod
     , base >=4.7 && <5
+    , blaze-html
+    , blaze-markup
+    , shakespeare
     , yesod
   default-language: Haskell2010
 
@@ -63,5 +70,8 @@ test-suite LearningYesod-test
   build-depends:
       LearningYesod
     , base >=4.7 && <5
+    , blaze-html
+    , blaze-markup
+    , shakespeare
     , yesod
   default-language: Haskell2010

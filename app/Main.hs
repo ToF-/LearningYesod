@@ -1,8 +1,6 @@
 module Main where
 
-import Links
+import HamletExample
 
 main :: IO ()
-main = do
-    putStrLn "running server... press Ctl-C to stop"
-    run
+main = hamletExample
