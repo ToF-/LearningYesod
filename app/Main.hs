@@ -1,6 +1,6 @@
 module Main where
 
-import EmbeddingExample
+import AttributeExample
 
 main :: IO ()
-main = embeddingExample
+main = attributeExample
