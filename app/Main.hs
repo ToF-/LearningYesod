@@ -1,6 +1,6 @@
 module Main where
 
-import HelloWorld
+import Links
 
 main :: IO ()
 main = do

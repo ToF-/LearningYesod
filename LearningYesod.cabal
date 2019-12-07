@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: bcfbd6650ef7fcb1c76654ac969d7eb1ad714b992e146028936fe38c9f00931d
+-- hash: 10716271a15f4d5698397cfab56d4b38acc5c7b96d7d2f3aaffced9afebe5a20
 
 name:           LearningYesod
 version:        0.1.0.0
@@ -29,6 +29,7 @@ library
   exposed-modules:
       HelloWorld
       Lib
+      Links
   other-modules:
       Paths_LearningYesod
   hs-source-dirs:
