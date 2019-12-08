@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c090e03b107f86d6ad32607a049de67f503ecf63934da171275c45d1b8b71473
+-- hash: ea333d6ddb34c9ace84ca4a37a48548f81283494a3709003f9922aa11d0a4066
 
 name:           LearningYesod
 version:        0.1.0.0
@@ -37,6 +37,7 @@ library
       Lib
       Links
       QuasiQuoterExample
+      TextExample
   other-modules:
       Paths_LearningYesod
   hs-source-dirs:

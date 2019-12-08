@@ -1,6 +1,7 @@
 module Main where
 
-import I18nExample
+import TextExample
 
 main :: IO ()
-main = i18nExample
+main = textExample
+
