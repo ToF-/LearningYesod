@@ -1,6 +1,6 @@
 module Main where
 
-import ExternalFileExample
+import I18nExample
 
 main :: IO ()
-main = externalFileExample 
+main = i18nExample
