@@ -1,7 +1,7 @@
 module Main where
 
-import TextExample
+import WidgetSynopsis
 
 main :: IO ()
-main = textExample
+main = widgetSynopsis
 
